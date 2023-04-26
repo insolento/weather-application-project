@@ -14,7 +14,7 @@ class GeoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor(red: 32, green: 78, blue: 199, alpha: 1)
     }
     
 

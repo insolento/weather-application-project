@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D84BFF629F6FBE3006C7239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84BFF529F6FBE3006C7239 /* AppDelegate.swift */; };
-		2D84BFF829F6FBE3006C7239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84BFF729F6FBE3006C7239 /* SceneDelegate.swift */; };
-		2D84BFFA29F6FBE3006C7239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84BFF929F6FBE3006C7239 /* ViewController.swift */; };
 		2D84BFFD29F6FBE3006C7239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D84BFFB29F6FBE3006C7239 /* Main.storyboard */; };
 		2D84BFFF29F6FBE5006C7239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D84BFFE29F6FBE5006C7239 /* Assets.xcassets */; };
 		2D84C00229F6FBE5006C7239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D84C00029F6FBE5006C7239 /* LaunchScreen.storyboard */; };
@@ -33,8 +31,6 @@
 /* Begin PBXFileReference section */
 		2D84BFF229F6FBE3006C7239 /* SkyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D84BFF529F6FBE3006C7239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D84BFF729F6FBE3006C7239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D84BFF929F6FBE3006C7239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D84BFFC29F6FBE3006C7239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D84BFFE29F6FBE5006C7239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D84C00129F6FBE5006C7239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,8 +89,6 @@
 				2D84C00E29F709BC006C7239 /* 24H Screen */,
 				2D84C00D29F70982006C7239 /* Day Screen */,
 				2D84BFF529F6FBE3006C7239 /* AppDelegate.swift */,
-				2D84BFF729F6FBE3006C7239 /* SceneDelegate.swift */,
-				2D84BFF929F6FBE3006C7239 /* ViewController.swift */,
 				2D84BFFB29F6FBE3006C7239 /* Main.storyboard */,
 				2D84BFFE29F6FBE5006C7239 /* Assets.xcassets */,
 				2D84C00029F6FBE5006C7239 /* LaunchScreen.storyboard */,
@@ -232,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D84C02E29F71329006C7239 /* DayViewController.swift in Sources */,
-				2D84BFFA29F6FBE3006C7239 /* ViewController.swift in Sources */,
 				2D84C02229F71260006C7239 /* SettingViewController.swift in Sources */,
 				2D84C01C29F71229006C7239 /* MainView.swift in Sources */,
 				2D84C01129F711A0006C7239 /* GeoModel.swift in Sources */,
@@ -246,7 +239,6 @@
 				2D84C02429F7126E006C7239 /* SettingView.swift in Sources */,
 				2D84C03029F71348006C7239 /* DayView.swift in Sources */,
 				2D84C01829F711E6006C7239 /* GeoView.swift in Sources */,
-				2D84BFF829F6FBE3006C7239 /* SceneDelegate.swift in Sources */,
 				2D84C02629F712A0006C7239 /* 24HModel.swift in Sources */,
 				2D84C02A29F712E7006C7239 /* 24HView.swift in Sources */,
 			);
@@ -400,7 +392,7 @@
 				INFOPLIST_FILE = SkyWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,7 +420,7 @@
 				INFOPLIST_FILE = SkyWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
