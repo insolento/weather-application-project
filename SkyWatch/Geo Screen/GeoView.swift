@@ -52,7 +52,7 @@ class GeoView: UIView {
         return button
     }()
     
-    let notUseButton = {
+    let notUseButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Do not allow any geolocation", for: .normal)

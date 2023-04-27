@@ -1,8 +1,10 @@
-//
-//  MainModel.swift
-//  SkyWatch
-//
-//  Created by maksym on 2023-04-24.
-//
-
 import Foundation
+
+
+enum WeatherState {
+    case sun
+    case cloudSunRain
+    case cloudRain
+    case cloud
+    case rain
+}

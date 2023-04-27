@@ -10,7 +10,9 @@ class SettingViewController: UIViewController {
         mainView.tableView.dataSource = self
         mainView.tableView.delegate = self
         setupView()
+        mainView.setButton.addTarget(self, action: #selector(setButton), for: .allEvents)
     }
+    
     func setupView() {
         mainView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(mainView)
@@ -20,6 +22,10 @@ class SettingViewController: UIViewController {
             mainView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             mainView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+    }
+    
+    @objc func setButton() {
+        dismiss(animated: true)
     }
 
 }
