@@ -1,10 +1,3 @@
-//
-//  GeoViewController.swift
-//  SkyWatch
-//
-//  Created by maksym on 2023-04-24.
-//
-
 import UIKit
 
 class GeoViewController: UIViewController {
@@ -14,18 +7,31 @@ class GeoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor(red: 32, green: 78, blue: 199, alpha: 1)
+        
+        setupView()
+        setupButtons()
+    }
+    func setupView() {
+        mainView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(mainView)
+        NSLayoutConstraint.activate([
+            mainView.topAnchor.constraint(equalTo: view.topAnchor),
+            mainView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            mainView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            mainView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupButtons() {
+        mainView.useButton.addTarget(self, action: #selector(use), for: .allEvents)
+        mainView.notUseButton.addTarget(self, action: #selector(notUse), for: .allEvents)
     }
-    */
-
+    
+    @objc func use() {
+        dismiss(animated: true)
+    }
+    
+    @objc func notUse() {
+        dismiss(animated: true)
+    }
 }

@@ -26,6 +26,7 @@
 		2D84C02C29F712FC006C7239 /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84C02B29F712FC006C7239 /* DayModel.swift */; };
 		2D84C02E29F71329006C7239 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84C02D29F71329006C7239 /* DayViewController.swift */; };
 		2D84C03029F71348006C7239 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84C02F29F71348006C7239 /* DayView.swift */; };
+		2DBD83FB29F9A21600EAA2F1 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD83FA29F9A21600EAA2F1 /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		2D84C02B29F712FC006C7239 /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
 		2D84C02D29F71329006C7239 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
 		2D84C02F29F71348006C7239 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		2DBD83FA29F9A21600EAA2F1 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				2D84C01F29F7124B006C7239 /* SettingsModel.swift */,
 				2D84C02129F71260006C7239 /* SettingViewController.swift */,
 				2D84C02329F7126E006C7239 /* SettingView.swift */,
+				2DBD83FA29F9A21600EAA2F1 /* SettingsTableViewCell.swift */,
 			);
 			path = "Settings Screen";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 				2D84C01929F71205006C7239 /* MainModel.swift */,
 				2D84C01D29F71237006C7239 /* MainViewController.swift */,
 				2D84C01B29F71229006C7239 /* MainView.swift */,
+				2DBD83FC29F9E1A400EAA2F1 /* Cellls */,
 			);
 			path = "Main Screen";
 			sourceTree = "<group>";
@@ -152,6 +156,13 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		2DBD83FC29F9E1A400EAA2F1 /* Cellls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cellls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 				2D84C02C29F712FC006C7239 /* DayModel.swift in Sources */,
 				2D84C02029F7124B006C7239 /* SettingsModel.swift in Sources */,
 				2D84C01E29F71237006C7239 /* MainViewController.swift in Sources */,
+				2DBD83FB29F9A21600EAA2F1 /* SettingsTableViewCell.swift in Sources */,
 				2D84C02429F7126E006C7239 /* SettingView.swift in Sources */,
 				2D84C03029F71348006C7239 /* DayView.swift in Sources */,
 				2D84C01829F711E6006C7239 /* GeoView.swift in Sources */,
